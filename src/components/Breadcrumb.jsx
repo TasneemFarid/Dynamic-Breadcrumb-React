@@ -27,7 +27,9 @@ const Breadcrumb = () => {
             key={index}
             className="list-none flex items-center flex-row-reverse"
           >
-            <Link to={item.href}>{item.name}</Link>
+            <Link to={item.href} className="capitalize">
+              {item.name}
+            </Link>
             <FaAngleRight className="mx-2" />
           </li>
         ))}
