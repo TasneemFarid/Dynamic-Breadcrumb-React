@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --spacing-container: 1200px; 
+}
